@@ -1,5 +1,6 @@
 <template>
-    <button class="post-button">Ver Contenido</button>
+    <button class="post-button" >Ver Contenido</button>
+    
 </template>
 
 <script lang="ts">

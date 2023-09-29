@@ -4,6 +4,11 @@
   <img alt="Vue logo" src="./assets/futbol.png" width="400" height="200" >
   <img alt="Vue logo" src="./assets/futsal.jpg" width="400" height="200">
   <img alt="Vue logo" src="./assets/fut.jpg" width="350" height="200">
+  <br>
+  <a href="https://www.flashscore.co/futbol-sala/europa/uefa-futsal-champions-league/#/zg">Resultados Champions</a><br>
+  <a href="https://www.conmebol.com/noticias/el-cierre-de-los-grupos-en-la-conmebol-copa-america-futsal-femenina/">Cierre de CONMEBOL</a><br>
+  <a href="https://european-union.europa.eu/priorities-and-actions/eu-priorities/achievements_es">Logros de la Union Europea</a>
+  
   <post-container/>
 </div>
 </template>
