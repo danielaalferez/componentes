@@ -2,8 +2,8 @@
   <h1>LIGAS DE FUTBOL</h1>
   <div class="image-container">
   <img alt="Vue logo" src="./assets/futbol.png" width="400" height="200" >
-  <img alt="Vue logo" src="./assets/futsal.jpg" width="300" height="200">
-  <img alt="Vue logo" src="./assets/fut.jpg" width="300" height="200">
+  <img alt="Vue logo" src="./assets/futsal.jpg" width="400" height="200">
+  <img alt="Vue logo" src="./assets/fut.jpg" width="350" height="200">
   <post-container/>
 </div>
 </template>

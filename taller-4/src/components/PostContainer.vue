@@ -33,5 +33,8 @@ export default defineComponent({
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-    }
+       
+   
+}
+
 </style>
