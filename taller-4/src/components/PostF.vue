@@ -1,26 +1,28 @@
 <template>
-    <button class="post-F"  >Equipos</button>
-    
-    
+  <div>
+    <button @click="verContenido">{{ buttonText }}</button>
+    <div v-if="contenidoVisible">
+      {{ contenidoTexto }}
+    </div>
+  </div>
 </template>
 
-<script lang="ts">
-    import { defineComponent, DefineComponent } from 'vue';
-
-    export default defineComponent({
-        name: "PostF"
-    })
-</script>
-
-<style lang="scss" scoped>
-.post-F {
-    background-color: rgb(185, 25, 185);
-    padding: 3px;
-    border: solid 1px rgb(52, 8, 148);
-    &:hover{
-        background-color: rgb(107, 7, 114);
-        border: solid px rgb(3, 30, 80);
-        color: #ffffff;
+<script>
+export default {
+  data() {
+    return {
+      buttonText: 'Mostrar :)',
+      contenidoVisible: false,
+      contenidoTexto: 
+      'La fuerza del equipo está en cada miembro individual. La fuerza de cada miembro está en el equipo.'
+      
+    };
+  },
+  methods: {
+    verContenido() {
+     
+      this.contenidoVisible = !this.contenidoVisible;
     }
-}
-</style>
+  }
+};
+</script>
